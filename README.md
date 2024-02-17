@@ -1,19 +1,54 @@
-# README
+# wailscalcgo
 
-## About
+This is a very basic calculator application created to test out the Wails library in Golang. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division.
 
-This is the official Wails React-TS template.
+![Base](./base.png)
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+## Getting Started
 
-## Live Development
+To run the calculator, you will need to have the following installed:
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+* Golang
+* Wails
 
-## Building
+Once you have these installed, you can clone this repository and run the following command to start the application:
 
-To build a redistributable, production mode package, use `wails build`.
+This will start the calculator application and open a window where you can enter numbers and perform calculations.
+
+## Usage
+
+The calculator can be used by entering numbers and operators into the text field and then clicking the appropriate button. The following operators are supported:
+
+* `+` for addition
+* `-` for subtraction
+* `*` for multiplication
+* `/` for division
+
+You can also use the following buttons:
+
+* `C` to clear the text field
+* `=` to evaluate the expression in the text field
+
+## Features
+
+* Performs basic arithmetic operations (addition, subtraction, multiplication, and division)
+* Clear button to clear the input field
+* Evaluate button to calculate the expression
+
+## Limitations
+
+* This is a very basic calculator and does not support any advanced features such as trigonometry, logarithms, or scientific notation.
+* The calculator only supports integer and float numbers.
+
+## Future Development
+
+* Add support for more advanced operations
+* Improve the user interface
+
+## Contributing
+
+If you would like to contribute to this project, please feel free to fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
